@@ -7,6 +7,7 @@ name = "news2blogger"
 version = "0.1.0"
 description = "Summarize and translate attributed articles into Blogger drafts."
 readme = "README.md"
+license = { file = "LICENSE" }
 requires-python = ">=3.11"
 dependencies = [
   "beautifulsoup4>=4.12,<5",

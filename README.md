@@ -4,6 +4,30 @@ A Python CLI that downloads an article, creates an original translated summary,
 adds visible credit and a source link, and sends it to Blogger. Posts are created
 as **drafts by default**.
 
+## Donate
+
+<table style="border: none;">
+  <tr style="border: none;">
+    <td valign="top" width="65%" style="border: none;">
+      <p>Support the maintenance of this project with PayPal or by scanning the QR code.</p>
+      <p>Your donation helps me maintain news2blogger, improve article extraction and Khmer concept summaries, keep Blogger publishing reliable, and develop new features for the community.</p>
+      <p>Every contribution supports the time and infrastructure needed for ongoing development, testing, documentation, translation quality, and maintenance.</p>
+      <p><code>👦 សម្រាប់ការបរិច្ចាគរបស់អ្នក ១០% នឹងត្រូវបានចូលរួមចំណែកជូនមន្ទីរពេទ្យគន្ធបុប្ផា។</code></p>
+      <p><code>👦 Ten percent of your donation will be contributed to Kantha Bopha Children's Hospital.</code></p>
+    </td>
+    <td align="center" valign="top" width="35%" style="border: none;">
+      <a href="https://www.paypal.com/donate/?hosted_button_id=GHBZLGLY76KNA">
+        <img src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" alt="Donate with PayPal">
+      </a>
+      <br><br>
+      <img src="https://raw.githubusercontent.com/HORKimhab/awesome-cybersecurity-resources/refs/heads/main/data/images/aba-merchant-hkimhab.jpeg" alt="QR code for donation" height="180">
+      <br>
+       <sub>Scan with ABA Mobile · Click to enlarge</sub>
+      <!-- <sub><a href="./asset/donate-image/">View donation records and images →</a></sub> -->
+    </td>
+  </tr>
+</table>
+
 ## What it does
 
 - Accepts one article URL or recent entries from an RSS/Atom feed.
@@ -160,3 +184,7 @@ ruff check .
 - `state.py`: duplicate detection
 - `service.py`: end-to-end orchestration
 - `cli.py`: command-line interface
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
