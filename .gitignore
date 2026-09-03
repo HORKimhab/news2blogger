@@ -1,0 +1,14 @@
+.env
+.env.encrypted
+.env.secret
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+credentials.json
+token.json
+data/
+logs/
+client_secret_**
+src/news2blogger.egg-info
