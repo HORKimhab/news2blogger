@@ -95,10 +95,18 @@ Preview the generated output without connecting to Blogger:
 ```bash
 news2blogger url 'https://example.com/article' --dry-run
 
+# https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/
 news2blogger url \
   'https://thehackernews.com/2026/09/google-anthropic-and-openai-unveil.html' \
   --dry-run \
   --output google-anthropic-and-openai-unveil.md
+
+  news2blogger url \
+  'https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program' \
+  --dry-run \
+  --output fairwind-program.md
+
+   news2blogger url 'https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program' --output fairwind-program.md --publish
 ```
 
 `--output` saves the generated title and structured content in a Markdown preview file.
